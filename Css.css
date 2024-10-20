@@ -1,0 +1,276 @@
+@media (max-width: 1069px) {
+    .hero{
+        justify-content: center;
+        width: auto;
+        height: auto;
+    }
+    .parent {
+        grid-template-columns: repeat(1, 1fr); /* Stack elements in one column */
+        width: 100%; /* Make it wider on smaller screens */
+        margin: 50px auto; /* Center the container */
+    }
+
+    .ello {
+        font-size: 100px; /* Reduce font size */
+    }
+
+    .first, .first1 {
+        font-size: 25px; /* Reduce font size */
+    }
+
+    .img {
+        margin: 20px auto; /* Centering */
+    }
+    
+}
+
+/* For devices with a max-width of 768px */
+@media (max-width: 768px) {
+    
+    .ello {
+        font-size: 40px; /* Further reduce font size */
+    }
+
+    .first, .first1 {
+        font-size: 20px; /* Further reduce font size */
+    }
+
+    .img2 {
+        margin-left: 0; /* Reset margins for responsiveness */
+    }
+
+    .img3 {
+        margin-left: 0; /* Reset margins for responsiveness */
+    }
+
+    .head {
+        margin-top: 30px; /* Adjust margin */
+    }
+
+    .parent {
+        width: 90%; /* Make it full width */
+        margin: 20px auto; /* Center parent container */
+    }
+    
+}
+
+/* For devices with a max-width of 480px */
+@media (max-width: 576px) {
+    .gif{
+        width: 150px;
+        height: 150px;
+    }
+    .ello {
+        font-size: 30px; /* Adjust for smaller screens */
+    }
+
+    .first, .first1 {
+        font-size: 18px; /* Further reduce font size */
+    }
+
+    
+
+    .img {
+        height: 80px; /* Adjust image size */
+        width: 80px;
+    }
+
+    .head {
+        margin-top: 20px; /* Adjust margin */
+    }
+
+    .parent {
+        margin: 10px auto; /* Adjust margin */
+    }
+}
+
+.hero{
+    
+    display: grid;
+    
+    height: 1069px;
+    background-color:  #BCF2F6;
+    border: 0px;
+    margin: 0px;
+    padding: 0%;
+}
+
+@font-face {
+    font-family: font;
+    src: url(./Lato-Regular.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(./Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: font3;
+    src: url(./Merriweather-Light.ttf);
+}
+.ello{
+    
+    font-family: font;
+    text-align: center;
+    color: #11999E;
+    font-size: 100px;
+    margin: 0%;
+    
+    
+}
+.image{
+
+    margin-bottom: 10px;  
+    border: 5px solid #bcd0d1;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 11.5px;
+}
+
+.first{
+    font-family: font;
+    text-align: center;
+    padding: 0%;
+    
+    color: #11999E;
+    font-size: 30px;
+    margin:0%;
+
+}
+    .first1{
+        font-family: font;
+        text-align: center;
+        padding: 0%;
+        
+        color: #11999E;
+        font-size: 30px;
+        margin:0%;
+        border: 0px;
+        margin-bottom: 50px;
+}
+.img{
+    display: block;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin-left: 1069px;
+    margin-top: 40px;
+}
+.img2{
+    
+    height: 110px;
+    width: 110px;
+    
+    position: absolute;
+    margin-left :500px; 
+}
+.first{
+    margin: 15px;
+}
+.img3{
+    margin-left: 250px;
+}
+h2{
+    text-align: center;
+    font-family: font;
+    font-size: 50px;
+    padding-bottom:5px;
+    margin-top: 10px;
+}
+
+.skills{
+    height: 100px;
+    font-family: font;
+    display: grid;
+    
+   
+}
+.head{
+    text-align: center;
+    margin-top: 50px;
+}
+.gif{
+    height: 250px;
+    width: 250px;
+
+
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+    .head1 {
+        display: inline;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: font2;
+        color: #11999E;
+    }
+
+.p{
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: font3;
+    
+}
+.head1{
+    display: inline;
+    font-size: 25px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: font2;
+    color: #11999E;
+}
+.EE{
+    height: 200px;
+    width: 250px;
+    margin-bottom: 50px;
+}
+.gap{
+    height: 50px;
+}
+.about{
+    height: 300px;
+    background-color: #BCF2F6;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.contact{
+    height: 400px;
+    display: grid;
+    
+
+}
+.pp{
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    color: #11999E;
+    font: bold;
+}
+.funny{
+    height: 100px;
+    width: 100px;
+}
+.pp1{
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    size: 100px;
+    font: bold;
+}
